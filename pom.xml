@@ -93,21 +93,8 @@
 							<outputDirectory>${project.build.directory}/classes</outputDirectory>
 							<overWriteReleases>false</overWriteReleases>
 							<overWriteSnapshots>true</overWriteSnapshots>
-							<!--<excludeScope>test</excludeScope>-->
 							<includeScope>compile</includeScope>
-							<artifactItems>
 
-									<artifactItem>
-										<groupId>org.graalvm.js</groupId>
-										<artifactId>js</artifactId>
-										<version>${graalvm.version}</version>
-										<type>jar</type>
-										<overWrite>true</overWrite>
-										<destFileName>graal-js.jar</destFileName>
-									</artifactItem>
-
-
-							</artifactItems>
 						</configuration>
 					</execution>
 

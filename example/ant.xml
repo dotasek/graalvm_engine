@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MyProject">
+  <tstamp/>
+  <property name="version" value="9999-${DSTAMP}"/>
+  <target name="dowork">
+ 	<scripttest attr1="test &#xD;  test"/>
+  </target>
+  <scriptdef name="scripttest" language="javascript">
+      <attribute name="attr1"/>
+
+        self.log("Attribute attr1 = " + attributes.get("attr1"));
+      
+  </scriptdef>
+</project>
